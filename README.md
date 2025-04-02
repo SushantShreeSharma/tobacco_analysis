@@ -41,3 +41,22 @@ Males tend to consume more cigarettes per day on average compared to females.
 Random Forest Classifier achieved 87.2% accuracy, with Smoking Duration, Age Started Smoking, and Cigarettes Per Day being the most important features.
 
 Confusion Matrix: The model effectively distinguishes smokers from non-smokers, with high recall and precision scores.
+
+
+Accuracy: 87.2%
+Precision: 0.85
+Recall: 0.88
+F1-score: 0.86
+
+Feature Importance:
+1. Smoking_Duration - 35%
+2. Age_Started_Smoking - 25%
+3. Cigarettes_Per_Day - 20%
+4. Gender - 10%
+5. Age - 10%
+
+
+               Predicted Non-Smoker   Predicted Smoker
+Actual Non-Smoker        82                 18
+Actual Smoker            12                 88
+
